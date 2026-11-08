@@ -1,6 +1,6 @@
 # Deploy and Host Alpine 3.24 KDE Plasma Desktop with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alpine-kde-desktop?referralCode=20H68q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/alpine-324-kde-plasma-desktop-in-your-br?referralCode=20H68q)
 
 A KDE Plasma desktop on Alpine Linux 3.24 that you open in a browser tab. It comes with Chromium, Firefox, the Dolphin file manager, the Konsole terminal and KDE Discover. A generated password protects it, and your home directory (files, settings, browser profile) lives on a persistent volume.
 
