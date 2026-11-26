@@ -7,7 +7,9 @@
 # The digest is the multi-arch index, identical on lscr.io, ghcr.io and
 # Docker Hub. To upgrade, replace tag and digest together with a newer
 # "alpine-kde-<hash>-ls<n>" release and redeploy.
-FROM lscr.io/linuxserver/webtop:alpine-kde-b1bc61ac-ls152@sha256:73e40a986740fcf2f920834ad992f2e9a04d88ff69fd4a243139cbf8e93776c7
+# Pulled from ghcr.io directly: lscr.io only redirects there, and a failed
+# redirect fails the whole build at this step.
+FROM ghcr.io/linuxserver/webtop:alpine-kde-b1bc61ac-ls152@sha256:73e40a986740fcf2f920834ad992f2e9a04d88ff69fd4a243139cbf8e93776c7
 
 # Image defaults for Railway. Variables set on the Railway service win.
 #  - PUID/PGID 1000: fixed owner of the /config volume. Do not change them

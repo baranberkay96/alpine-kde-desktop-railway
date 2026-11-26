@@ -2,7 +2,7 @@
 
 ## Base image and its components
 
-The service is built `FROM lscr.io/linuxserver/webtop:alpine-kde-b1bc61ac-ls152@sha256:73e40a986740fcf2f920834ad992f2e9a04d88ff69fd4a243139cbf8e93776c7` (built 2026-11-03). The image is used as published by linuxserver.io. This repository contains no copy of its source files.
+The service is built `FROM ghcr.io/linuxserver/webtop:alpine-kde-b1bc61ac-ls152@sha256:73e40a986740fcf2f920834ad992f2e9a04d88ff69fd4a243139cbf8e93776c7` (built 2026-11-03). The image is used as published by linuxserver.io. This repository contains no copy of its source files.
 
 | Component | Source | License | How it is used |
 |---|---|---|---|

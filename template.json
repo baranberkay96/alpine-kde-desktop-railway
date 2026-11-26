@@ -16,7 +16,7 @@
   "upstream": {
     "repo": "linuxserver/docker-webtop",
     "version": "alpine-kde-b1bc61ac-ls152",
-    "image": "lscr.io/linuxserver/webtop:alpine-kde-b1bc61ac-ls152@sha256:73e40a986740fcf2f920834ad992f2e9a04d88ff69fd4a243139cbf8e93776c7",
+    "image": "ghcr.io/linuxserver/webtop:alpine-kde-b1bc61ac-ls152@sha256:73e40a986740fcf2f920834ad992f2e9a04d88ff69fd4a243139cbf8e93776c7",
     "base": "baseimage-selkies:alpine324",
     "checked": "2026-11-08"
   },
